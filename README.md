@@ -6,7 +6,7 @@ The Students Performance Prediction App is a machine learning-based web applicat
 
 The app offers educators, students, and administrators a powerful tool to identify students who may need additional support, enabling timely intervention to improve overall academic performance.
 
-`*Try it here:* https://students-performance-predictions.streamlit.app/`
+*Try it here:* https://students-performance-predictions.streamlit.app/
 
 **Features**
 
@@ -90,15 +90,19 @@ Click the "Predict" button to see whether the student will pass or fail the exam
 Data was collected through a digital questionnaire that gathered information on student demographics, study habits, internet access, guardian engagement, and academic performance. This comprehensive dataset formed the foundation for the predictive model.
 More contribution can still be made.
 Fill this link if you're a secondary school student in Africa. 
-`https://docs.google.com/forms/d/e/1FAIpQLScGMcEnTsgEVaVIGTraMjqO7M-annqRdJRI2DYeuUiOW29Gvg/viewform`
+https://docs.google.com/forms/d/e/1FAIpQLScGMcEnTsgEVaVIGTraMjqO7M-annqRdJRI2DYeuUiOW29Gvg/viewform
 
 *Key features:*
-
 Age
+
 Study Hours per Week
+
 Guardian Engagement
+
 Internet Access
+
 Library Usage
+
 Average Academic Scores ....
 
 2. **Data Preparation**
@@ -110,14 +114,19 @@ Once the data was collected, it was cleaned and organized to ensure consistency.
 Exploratory data analysis (EDA) was performed to understand the relationships between features. The key focus was on visualizing distributions, such as:
 
 The correlation between Study Hours and Average Score.
+
 The impact of Guardian Engagement on student performance.
+
 The plot can be viewed in the plot_folder
 
 4. **Data Preprocessing**
 
 The data was preprocessed to be suitable for machine learning algorithms. The following steps were applied:
+
 *Scaling:* Numerical features were scaled using StandardScaler to ensure uniformity.
+
 *Encoding: *Categorical features were encoded into numerical representations (e.g., Yes/No -> 1/0).
+
 *Train-Test Split:* The dataset was split into training and testing sets for proper evaluation of model performance.
 
 5. **Feature Engineering**
@@ -132,12 +141,15 @@ During feature engineering, additional features were derived to improve model pe
 Several machine learning algorithms were evaluated, but Logistic Regression was chosen due to its performance and simplicity. Hyperparameter tuning was applied to optimize the model's predictive power. Other models like Decision Trees and Random Forests were tested for comparison.
 Outcome: A well-tuned Logistic Regression model capable of predicting student performance accurately.
 
-7. Evaluation
+7. **Evaluation**
 The model was evaluated using key performance metrics:
 
 Accuracy: 92%
+
 F1 Score: 94%
+
 Cross-validation was employed to ensure the model generalizes well across different data splits.
+
 F1 score was the key metrics used because the dataset has its target variable to be imbalanced
 
 8. **Deployment**
