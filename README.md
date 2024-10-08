@@ -36,14 +36,23 @@ The project repository includes the following files:
 
 
 `my-streamlit-app/`
+
 `│`
+
 `├── app.py                        # Main Streamlit app script `
+
 `├── plot_folder                   # the plots generated are stored`
+
 `├── Datafest - Sheet1.csv         # the data collected via a digital questionaire`
+
 `├── student.ipynb                 # Jupyter notebook for data analysis and model building`
+
 `├── logistic_model.pkl            # Trained Logistic Regression model`
+
 `├── scaler.pkl                    # Scaler used for feature scaling`
+
 `├── requirements.txt              # Python dependencies`
+
 `└── README.md                     # Project documentation`
 
 **Installation**
